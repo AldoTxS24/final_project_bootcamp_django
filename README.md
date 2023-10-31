@@ -22,20 +22,21 @@ pip install -r requirements.txt
 
 4. Genera las migraciones y ejeculatas:
 ```
-python manage.py makemigrations --settings=settings.local
-python manage.py migrate --settings=settings.local
+python manage.py makemigrations
+python manage.py migrate
 ```
 5. Crea un super usuario:
 ```
-python manage.py createsuperuser --settings=settings.local
+python manage.py createsuperuser
 ```
 6. Corre la aplicación:
 ```
-python manage.py runserver --settings=settings.local
+python manage.py runserver
 ```
 
 7. Para lanzar abrir el endpoint para dar de alta un usuario hay que abrir el link:
 ```
-http://127.0.0.1:8000/usuarios/signup
+http://143.244.180.12:8000/usuarios/signup
 ```
 
+8. TEST
